@@ -17,7 +17,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 55%;
 
 }
 body {
@@ -59,10 +59,6 @@ body {
   z-index: 1;
   margin: 0 auto 83px;
   width: 260px;
-}
-
-.first-screen__header h1 {
-  margin: 0;
   font: normal 700 2.8rem/1.2 Open Sans, Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -348,9 +344,6 @@ body {
   .first-screen__header {
     margin-bottom: 300px;
     width: 630px;
-  }
-
-  .first-screen__header h1 {
     font: normal 700 6.4rem/1.2 Open Sans, Arial, sans-serif;
     letter-spacing: 5px;
   }
@@ -537,10 +530,6 @@ body {
     width: 100%;
     max-width: 1740px;
     margin-bottom: 200px;
-  }
-  
-  .first-screen__header h1 {
-    width: 100%;
     font: normal 700 9rem/1.2 Open Sans, Arial, sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
