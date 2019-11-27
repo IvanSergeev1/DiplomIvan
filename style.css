@@ -12,6 +12,23 @@
   font-style: normal;
 }
 
+.title {
+  margin: 20px 0 30px;
+  font: normal 700 3.2rem/1 "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #c1c1c1;
+}
+
+.title::before {
+  content: '01';
+  border-bottom: 4px solid #5e42b0;
+  margin-right: 10px;
+  font: normal 700 1.8rem/1.1 "Open Sans", Arial, sans-serif;
+  color: #000;
+  position: relative;
+  top: -8px;
+}
+
 * {
   box-sizing: border-box;
 }
