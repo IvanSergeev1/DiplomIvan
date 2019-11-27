@@ -21,13 +21,18 @@
 }
 
 .title::before {
-  content: '01';
+  counter-increment: heading;
+  content: "0" counter(heading);
   border-bottom: 4px solid #5e42b0;
   margin-right: 10px;
   font: normal 700 1.8rem/1.1 "Open Sans", Arial, sans-serif;
   color: #000;
   position: relative;
   top: -8px;
+}
+
+.title-third::before {
+  border-bottom-color: white;
 }
 /* ---------------------- */
 
@@ -41,6 +46,7 @@ html {
 }
 body {
   margin: 0;
+  counter-reset: heading;
 }
 
 .first-screen {
